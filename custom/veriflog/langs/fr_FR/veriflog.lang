@@ -1,0 +1,42 @@
+# Copyright (C) 2017 Mikael Carlavan <contact@mika-carl.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleVerifLogName'
+ModuleVerifLogName = VerifLog
+# Module description 'ModuleVerifLogDesc'
+ModuleVerifLogDesc = Module permettant de vérifier les droits d'accès des utilisateurs à l'interface Dolibarr
+
+#
+# Page À propos
+#
+About = À propos
+VerifLogAbout = À propos du module
+VerifLogAboutPage = Page à propos du module
+VerifLogAboutDescLong = Ce module a été développé par <a href="http://www.mikael-carlavan.fr">Mikael Carlavan</a> pour le <a href="http://www.cpie54.com">Centre Permanent d'Initiatives pour l'Environnement</a>.
+
+# ChangeLog
+ChangeLog = ChangeLog
+ChangeLogVersion = Version
+ChangeLogDate = Date
+ChangeLogUpdates = Modification apportées
+VerifLogFirstVersion = Première version
+
+#
+VerifLogRefusedAccessTitle = Accès restreint
+VerifLogRefusedAccessMessage = Malheureusement, vos droits ne vous permettent pas d'accéder à ce contenu.

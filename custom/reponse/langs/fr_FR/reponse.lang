@@ -1,0 +1,261 @@
+# Copyright (C) 2017 Mikael Carlavan <contact@mika-carl.fr>
+# Copyright (C) 2024 Julien Marchand <julien.marchand@iouston.com>
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleReponseName'
+ModuleReponseName = Reponse
+# Module description 'ModuleReponseDesc'
+ModuleReponseDesc = Module de réponse
+
+#
+# Page d'administration
+#
+ReponseSetup = Configuration du module
+Settings = Réglages
+ReponseSetupPage = Page de réglage du module
+ReponseOptions = Options
+Description = Description
+Value = Valeur
+Action = Action
+ReponsesNumberingModules = Modèle de numérotation de réponses
+NextValue=Prochaine valeur
+NoDescription=Aucune description
+NoExample=Aucun exemple
+NotAvailable=Non disponible
+Reponse = Reponse
+Extrafields = Attributs supplémentaires
+MailToSendReponse = Reponse
+DescREPONSE_ROOT_URL = URL racine pour la partie publique<br><i>- Cette URL doit pointer sur le dossier reponse/public de votre dolibarr.<br>- L'idéal est de créer un sous domaine form.votredolibarr.com qui pointe vers le dossier reponse/public</i>
+DescREPONSE_DISPLAY_MAP = Afficher la carte sur la partie publique
+DescREPONSE_THEME = Thème
+#
+# Page À propos
+#
+About = À propos
+ReponseAbout = À propos du module
+ReponseAboutPage = Page à propos du module
+ReponseAboutDescLong = Ce module a été développé par <a href="http://www.mikael-carlavan.fr">Mikael Carlavan</a> pour <a href="http://www.iouston.com">iouston informatique</a>.<br>La documentation du module est disponible en ligne :<br><a href="%s">%s</a>
+
+#
+Upgrade = Mise à jour
+ReponseUpgrade = Remplissage des tables
+ReponseUpgradePage = Page de remplissage des tables
+ReponseUpgradePageDescLong = Cette page permet de remplir les tables pour les réponses existantes
+RecordsUpgraded = Réponse mise à jour : %d/%d
+UpgradedDone = Mise à jour terminée
+StartUpgrade = Démarrer
+
+# ChangeLog
+ChangeLog = ChangeLog
+ChangeLogVersion = Version
+ChangeLogDate = Date
+ChangeLogUpdates = Modification apportées
+ReponseFirstVersion = Première version
+Reponse200Version = Ré-écriture du module afin d'autoriser un grand nombre de formulaire.
+
+#
+Reponses = Réponses
+ReponsesList = Liste
+ListeReponses = Liste des réponses
+ReponsesNew = Nouvelle réponse
+ReponsesArea = Espace réponses
+NoReponse = Aucune réponse n'a été trouvée
+LastModifiedReponses = Les %d derniers réponses modifiées
+ReponsesTab = Réponses
+#
+NewReponse = Nouvelle réponse
+CreateReponse = Créer réponse
+ShowReponse = Voir la réponse
+ReponseCard = Réponse
+Info = Suivi
+Ref = Réf.
+ReponseRef = Référence réponse
+ReponseDate = Date réponse
+ReponseID = ID de la réponse
+ReponseCODE = Vous pouvez appeler n'importe quel champ de votre questionnaire avec __REPONSE_CODE__ où CODE est le code de votre champ de formulaire.
+
+TrackId = Identifiant unique
+DateCreation = Date de création
+DateModificationShort = Date de modif.
+UserAuthor = Utilisateur
+UserAuthorId = Utilisateur
+EnvoiAr = AR envoyé
+AvecFichier = Avec fichier(s)
+ListOfReponses = Liste des réponses
+CreateByUsers = Utilisateurs
+Timelaps = Laps de temps (min.)
+#
+MassActionEnvoiAR = Envoyer un accusé de réception
+MassDownload = Télécharger les fichiers attachés
+MassLocation = Mettre à jour les informations de localisation
+MassIssue = Modifier le statut problématique
+MassMerge = Fusionner les doublons
+NoFilesToDownload = Il n'y a aucun fichier à télécharger
+CanNotCreateZip = Erreur lors de la création de l'archive à télécharger
+MassActionDelete = Supprimer
+DeleteReponse = Supprimer
+LocationReponse = Mettre à jour la localisation
+EmailConfirmReponse = Envoyer AR
+ConfirmDeleteReponse = Êtes-vous sûr de vouloir effacer cette réponse ?
+ConfirmMassConfirmation = Confirmation en masse
+ConfirmMassConfirmationQuestion = Êtes-vous sur de vouloir envoyer les confirmations à (aux) %s valeur(s) sélectionnée(s) ?
+ConfirmMassIssue = Modifier le statut problématique en masse
+ConfirmMassIssueQuestion = Êtes-vous sur de vouloir modifier le statut problématique à (aux) %s valeur(s) sélectionnée(s) ?
+ConfirmMassLocation = Mettre à jour les informations de localisation
+ConfirmMassLocationQuestion = Êtes-vous sur de vouloir mettre à jour les informations de localisation des %s valeur(s) sélectionnée(s) ?
+ConfirmLocationReponse = Êtes-vous sûr de vouloir à jour les informations de localisation de cette réponse ?
+ConfirmMassMerge = Fusionner les doublons
+ConfirmMassMergeQuestion = Êtes-vous sur de vouloir fusionner les doublons sélectionnés ?
+
+RecordsConfirmed = %s enregistrements confirmés
+RecordUpdated = Enregistrement mis à jour
+RecordsUpdated = %s enregistrements mis à jour
+RecordConfirmed = Enregistrement confirmé
+NoRecordConfirmed = Aucun enregistrement confirmé
+ReponseEnvoiAR = L'accusé de réception a été envoyé
+LinkToEnvoi = Lier à un envoi
+LinkToEchantillon = Lier à un échantillon
+DownloadFiles = Télécharger les fichiers attachés
+Form = Questionnaire
+ForHuman = Humain
+Profile = Profil
+SaveReponseDetails = Sauvegarder
+SetIssue = Modifier la problématique
+Issue = Problématique
+ConfirmIssue = Êtes-vous sur de vouloir confirmer cette problématique ?
+EchantillonNote = Observations
+ReponseAutoSendAR = L'AR automatique réponse a été envoyé
+#
+ReponseDetails = Détails
+SelectForm = Merci de sélectionner un questionnaire pour renseigner les détails de la réponse
+SelectedFormIsEmpty = Le questionnaire sélectionné ne contient pas de détails à renseigner
+SearchIntoReponses = Reponses
+BEARef = N°BEA
+EchantillonPackaging = Conditionnement
+#
+LierReponse = Lier une réponse
+CloneReponse = Cloner une réponse
+ConfirmCloneReponse = Êtes-vous sûr de vouloir cloner cette réponse ?
+ReponseCloned = Le réponse a été clonée
+SelectReponse = Merci de sélectionner une réponse
+ConfirmLierReponse = Êtes-vous sûr de vouloir lier cette réponse ?
+ReponseLinkedToUser = La réponse a été lié au compte utilisateur
+ConfirmLierReponseFromAgent = Cette réponse n'est pas liée à un compte opérationnel.
+ConfirmLierReponseDetails = Vous êtes sur le point de lier la réponse %s du %s réalisée par %s (%s)
+ConfirmLierReponseFromUser = <span style="color: red">Attention, le réponse est déjà liée à un compte utilisateur existant !</span>
+#
+AccessNotAllowed = Cette action ne vous est pas autorisée. Merci de vous identifier si ce n'est pas le cas.
+ReponseNotFound = Le réponse n'a pas été trouvée.
+ReponsePleaseUpgradeYourApp = La version de votre application ne permet pas de réaliser cette opération. Merci de la mettre à jour.
+ErrorWhileRetrievingReponseList = Erreur lors de la récupération de la liste des réponses.
+ErrorWhileCreatingReponse = Erreur lors de la création de la réponse.
+ErrorWhileUpdatingReponse = Erreur lors de la mise à jour de la réponse.
+ReponseHasBeenCreated = Votre réponse a bien été enregistrée.
+MandatoryInfo = (Obligatoire)
+#
+MakeFirstReponse = Participez au questionnaire
+MakeReponse = Participez au questionnaire
+ReponseHistory = Historique
+ReponseMap = Carte
+ReponseForm = Reponse
+ReponseLogout = Déconnexion
+ReponseMyProfile = Mon compte
+ReponseSignInTitle = Connexion à votre compte
+ReponseSignInDesc = Vous pouvez accéder à votre compte et votre historique de réponse en remplissant le questionnaire ci-dessous.
+ReponseSignInEmail = Votre adresse email
+ReponseSignInPassword = Votre mot de passe
+ReponseRememberMe = Se souvenir de moi
+ReponsePasswordForgotten = Mot de passe oublié ?
+ReponseConnect = Connexion
+ReponseFirstTimeHere = C'est votre première fois ici ?
+ReponseRegister = Inscrivez-vous
+ReponseUserInformation = Informations personnelles
+ReponseAccountInformation = E-mail et mot de passe
+ReponseFirstName = Prénom
+ReponseLastName = Nom
+ReponseName = Prénom/Nom
+ReponseEmail = E-mail
+ReponsePassword = Mot de passe
+ReponsePlaceHolder = Laissez ce champ vide si vous ne souhaitez pas modifier votre mot de passe.
+ReponseSave = Enregistrer
+ReponseIMakeReport = Je réponds au questionnaire
+ReponseMakeReportDetails = Merci pour votre participation.
+ReponseMakeReportTitle = Participez au questionnaire
+ReponseMakeFirstReportTitle = Je réponds au questionnaire
+ReponseSignUpTitle = Inscription
+ReponseSignUpButton = Inscription
+ReponseSignUpLogin = Nom d'utilisateur
+ReponseSignUpEmail = Adresse e-mail
+ReponseValidationCode = Code de validation
+ReponseSignUpPassword = Mot de passe
+ReponseAlreadyHaveAccount = Vous avez déjà un compte ?
+ReponseSignUpConnect = Connectez-vous
+ReponsePasswordRequestTitle = Mot de passe oublié
+ReponsePasswordRequestDesc = Indiquez l'identifiant ou l'adresse email utilisé pour accéder à votre compte.
+ReponsePasswordValidationTitle = Mot de passe oublié
+ReponseNotLogIn = Merci de vous identifier pour accéder à cette ressource.
+ReponseValidate = Valider
+ReponsePasswordValidationDesc = Un code de confirmation a été envoyé à votre adresse email. Merci de le renseigner ci-dessous.
+ReponseTermsAndConditions = En vous inscrivant, vous acceptez nos conditions générales et notre politique de confidentialité.
+ReponsePasswordTooltip = Le mot de passe doit contenir 6 caractères minimum dont 1 lettre majuscule et 1 chiffre.
+ReponseHistoryRef = Réponse N° %s
+ReponseOnForm = au formulaire %s
+ReponseHistoryLocation = Secteur de %s
+ReponseAccountUpdated = Vos informations de compte ont été mises à jour.
+ReponseHistoryIsEmpty = Aucune réponse n'a été trouvée.
+ReponseReport = Je réponds au questionnaire
+ReponseChoose = Choisir...
+ReponseNoFormFound = Aucun questionnaire n'a été trouvé.
+ReponsePreviousQuestion = Précédent
+ReponseNextQuestion = Suivant
+ReponseSelectDate = Cliquez pour sélectionner une date
+ReponseSelectFile = Ajouter un fichier
+ReponseBrowseFile = Parcourir
+ReponseUnknownType = Type non reconnu
+ReponseFieldIsMandatory = Ce champ est obligatoire. Merci de le compléter.
+ReponseLocationNotFoundTitle = Cette localisation n'a pas été trouvée.
+ReponseLocationNotFoundDesc = Merci de réessayer en indiquant le pays ou une ville à proximité.
+ReponseLocation = Adresse
+ReponseLocationTitle = Recentrer la carte
+ReponseLocationDesc = Vous pouvez recentrer la carte en indiquant le nom de la ville et du pays
+ReponseRecenterMap = Recentrer la carte
+ReponseGetMyLocation = Ma position
+ReponseDailyReportDuration = Durée (jours)
+ReponseDailyReportForm = Reponse
+ReponseCustomReportDetailed = Merci d'indiquer lé réference du questionnaire à utiliser pour le mode spécifique.
+ReponseDailyReportHour = Heure de rappel
+ReponseDailyReportSave = Sauvegarder
+ReponseCustomReportSave = Sauvegarder
+#
+ReponsePrivateNote = Note privée
+SendReponseRef = Confirmation de participation à notre questionnaire
+ErrorCantLoadAgentUser = Le module "Connect" est manquant ou non configuré.
+#
+ReponseMapFilters = Filtres
+#
+YouNeedAddAPostFillOnYourTaskField = Pour restreindre les tâches au projet, ajouter une valeur déduite projet.id à votre champ tâche
+Helpstep = Précision à : 
+Helpmax = Valeur max : 
+Helpvalue = Valeur prédéfinie :
+Helpreadonly = Champ en lecture seule
+Helpdisabled = Champ désactivé
+SeeResponse = Voir les réponses de ce tiers
+ReponseYourRef = Votre référence : 
+ReponseInformations = Informations
+AccessNeedToBeConnected = Vous devez être connecté pour accéder à ce formulaire
+AccessNeedReadRights = Vous devez disposer des droits nécessaires pour voir ce formulaire

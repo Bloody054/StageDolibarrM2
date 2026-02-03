@@ -1,0 +1,269 @@
+# Copyright (C) 2017 Mikael Carlavan <contact@mika-carl.fr>
+# Copyright (C) 2025 Julien Marchand <julien.marchand@iouston.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleQuestionnaireName'
+ModuleQuestionnaireName = Questionnaire
+# Module description 'ModuleQuestionnaireDesc'
+ModuleQuestionnaireDesc = Module permettant de générer des questionnaires
+
+#
+# Page d'administration
+#
+QuestionnaireSetup = Configuration du module
+Settings = Réglages
+QuestionnaireSetupPage = Page de réglage du module
+QuestionnaireOptions = Options
+Description = Description
+Value = Valeur
+Action = Action
+QuestionnairesNumberingModules = Modèle de numérotation de questionnaire
+NextValue=Prochaine valeur
+NoDescription=Aucune description
+NoExample=Aucun exemple
+NotAvailable=Non disponible
+Questionnaire = Questionnaire
+Extrafields = Attributs supplémentaires
+
+#
+# Page À propos
+#
+About = À propos
+QuestionnaireAbout = À propos du module
+QuestionnaireAboutPage = Page à propos du module
+QuestionnaireAboutDescLong = Ce module a été développé par <a href="http://www.mikael-carlavan.fr">Mikael Carlavan</a> pour <a href="https://www.lavigiedeleau.eu">la Vigie de l'Eau</a>.
+
+# ChangeLog
+ChangeLog = ChangeLog
+ChangeLogVersion = Version
+ChangeLogDate = Date
+ChangeLogUpdates = Modification apportées
+QuestionnaireFirstVersion = Première version
+Questionnaire101Version = Ajout du système d'actions
+Questionnaire200Version = Ré-écriture du module afin d'autoriser un grand nombre de formulaire.
+#
+Questionnaire = Questionnaire
+Questionnaires = Questionnaires
+QuestionnairesList = Liste
+ListeQuestionnaires = Liste des questionnaires
+QuestionnairesNew = Nouveau questionnaire
+QuestionnairesArea = Espace questionnaires
+NoQuestionnaire = Aucun questionnaire
+LastModifiedQuestionnaires = Les %d derniers questionnaires modifiés
+NBAnswer = Nombre de réponses
+QuestionnaireExport = Exporter
+
+#
+NewQuestionnaire = Nouveau questionnaire
+CreateQuestionnaire = Créer questionnaire
+ShowQuestionnaire = Voir le questionnaire
+QuestionnaireCard = Questionnaire
+Info = Suivi
+Ref = Réf.
+DateCreation = Date de création
+DateModificationShort = Date de modif.
+UserAuthorId = Utilisateur
+ListOfQuestionnaires = Liste des questionnaires
+CreateByUsers = Utilisateurs
+#
+MassActionDelete = Supprimer
+DeleteQuestionnaire = Supprimer
+CloneQuestionnaire = Cloner
+ConfirmDeleteQuestionnaire = Êtes-vous sûr de vouloir effacer ce questionnaire ?
+ConfirmCloneQuestionnaire = Êtes-vous sûr de vouloir cloner ce questionnaire ?
+DeleteQuestionnaireLine = Supprimer cette ligne
+ConfirmDeleteQuestionnaireLine = Êtes-vous sûr de vouloir effacer cette ligne de questionnaire ?
+SetTitle = Mettre à jour le titre
+QuestionnaireCode = Code
+QuestionnaireFieldCode = Champ du questionnaire
+QuestionnaireCodePlaceHolder = Entrez le nom d'un nouveau champ
+QuestionnaireLabel = Libellé
+QuestionnaireType = Type
+QuestionnaireHelp = Aide
+QuestionnairePostFill = Valeur déduite
+QuestionnairePreFill = Valeur forcée
+QuestionnaireCondition = Condition d'affichage
+QuestionnaireCrypted = Crypté
+QuestionnaireInApp = Visibilité appli.
+QuestionnaireVisibility = Visibilité sur droit
+QuestionnaireMandatory = Obligatoire
+QuestionnaireParam = Paramètres
+QuestionnaireFieldAlreayExist = Ou champ qui existe déjà
+Selected = Par défaut
+AfterSubmission = Après l'envoi du questionnaire
+AfterSubmissionHelp = Indiquer le comportement du formulaire après l'envoi
+AfterSubmissionCustomPage = URL personnalisée
+AfterSubmissionCustomPageHelp = Indiquer une adresse personnalisée vers laquelle aller après l'envoi du formulaire. Indiquer une adresse absolue : https://www.iouston.com. Notez que dans le cas d'une URL personnalisée, vous ne verrez pas le message de confirmation du formulaire.
+GoToHome = Aller à la page d'accueil
+GoToSameForm = Recharger le même questionnaire
+GoToCustomPage = Aller vers une url personnalisée
+CustomConfirmMessage = Message de confirmation personnalisé
+CustomConfirmMessageHelp = Ce message sera indiqué en lieu et place du message par défaut. Une référence sera affichée après ce texte
+ThisCustomMessageWillNotDisplayed = Ce message personnalisé ne sera pas visible car le formulaire renvoit vers une url personnalisée !
+ReponseYourRef = Votre référence : 
+QuestionnaireEmail = Champ de contact
+QuestionnaireEmailHelp = Indiquer un champ du formulaire contenant une adresse mail. C'est à cette adresse que sera envoyée la confirmation email
+QuestionnaireLocation = Champ de localisation
+QuestionnaireLocationHelp = Indiquer un champ du formulaire contenant latitude,longitude. c'est ce champ qui sera utilisé pour réaliser une géolocalisation
+QuestionnaireDate = Champ de date
+QuestionnaireDate = Indiquer un champ du formulaire contenant une date. C'est cette date qui sera utilisée dans la variable de substitution __REPONSE_DATE__
+QuestionnaireName = Champ de nom
+QuestionnaireNameHelp = Indiquer un champ du formulaire contenant un prénom et/ou un nom. C'est cette date qui sera utilisée dans la variable de substitution __REPONSE_NAME__ 
+SetQuestionnaireEmail = Modifier le champ de contact
+SetQuestionnaireLocation = Modifier le champ de localisation
+SetQuestionnaireDate = Modifier le champ de date
+SetQuestionnaireName = Modifier le champ de nom
+QuestionnaireActive = Actif
+URLPublic = Adresse du formulaire
+ShowProgressBar = Afficher la barre de progression
+ShowProgressBarHelp = Afficiher une barre de progression sur l'interface publique lors du remplissage du formulaire
+#
+CreatedByUsers = Utilisateurs
+#
+TypeString = Chaîne
+TypeInt = Entier
+TypeFile = Fichier
+TypeText = Texte
+TypeNumeric = Numérique
+TypeMap = Carte
+TypeDate = Date
+TypeDateTime = Date et heure
+TypeList = Liste
+TypeTable = Liste issue d'un dictionnaire
+TypeRadio = Cases d'option
+TypeCheckbox = Cases à cocher
+TypeSiret = N° de siret
+TypeCompany = Société
+TypeProject = Projet
+TypeCommande = Commande
+TypeProduct = Produit
+TypeUser = Utilisateur
+TypeTask = Tâche
+TypeWarehouse = Entrepôt
+TypeSign = Signature
+TypeProductMultiple = Produits multiples
+UpdateOtherFields = Mettre également à jour les champs de ville, pays, région et département.
+CodeAlreadyExists = Ce code existe déjà (y compris dans un autre formulaire).
+#
+LoggedInUser = Utilisateur identifié
+Date = Date
+#
+UserFirstName = Prénom
+UserLastName = Nom
+UserFullName = Prénom et nom
+UserEmail = Email
+DateNow = Date courante
+App = Application
+AppOperatingSystem = Système d'exploitation
+SiretNomComplet = Nom de l'entreprise
+SiretAdresse = Adresse de l'entreprise
+SiretCodePostal = Code Postal
+SiretLibelleCommune = Localité
+SiretCodeAPE = Code APE
+SiretDirigeantNom = Nom du dirigeant
+SiretDirigeantPrenom = Prenom du dirigeant
+SiretEstAssociation = Est une association ?
+SiretEstBio = A label bio ?
+SiretEstEntrepreneurIndividuel = Est entrepreneur individuel ?
+SiretEstRGE = Est RGE ?
+SiretIdentifiantAssociation = Identifiant association
+SiretCodeSIREN= Numéro SIREN
+SiretLatLong= Lattitude Longitude
+#
+OperatorLess = &lt;
+OperatorLessOrEqual = &le;
+OperatorEqual = &equals;
+OperatorGreater = &gt;
+OperatorGreaterOrEqual = &ge;
+OperatorDifferent = &ne;
+OperatorEmpty = vide
+OperatorNotEmpty = non vide
+OperatorAlways = toujours
+OperatorEmptyDisplayed = affiché et vide
+OperatorNotEmptyDisplayed = affiché et non vide
+#
+AccessNotAllowed = Cette action ne vous est pas autorisée.
+FormNotFound = Le questionnaire n'a pas été trouvé.
+ErrorWhileRetrievingFormList = Erreur lors de la récupération de la liste des questionnaires.
+#
+HelpPostFill = Utilisez une valeur disponible pour compléter un champ pendant le questionnaire. S'utilise par exemple après le champ siret pour obtenir des informations liées à l'entreprise.
+HelpPreFill = Utilisez une valeur disponible pour forcer le remplissage du champ lors de la création de la réponse.
+HelpLabel = Indiquez votre question, sera affiché sur l'écran du formulaire
+HelpCode = Un code court en minuscule, sans caractère spéciaux et sans espace. Est utilisé pour stocker les informations dans la base de données et pour la conditionnalité d'affichage d'autres champs
+HelpType = Le type de votre champ de formulaire.
+HelpCondition = Ce champ s'affichera si au moins une condition est remplie
+HelpParam = Les paramètres à utiliser pour votre champ. Pour un champ liste, merci de préciser un item par ligne avec cle,valeur où cle est en minuscule, sans accent, sans caractères spéciaux et sans espace
+HelpCrypted = Les réponses à ce champ peuvent être cryptées en base.
+HelpVisibility = Est-ce que ce champ peut être rempli uniquement si l'utilisateur dispose d'un droit spécial (voir les permissions du module)
+HelpInApp = Est-ce que ce champ est présent dans le formulaire public ou uniquement accessible depuis dolibarr ?
+HelpMandatory = Est-ce que ce champ est obligatoire
+HelpHelp = Indiquez un message d'aide à vos visiteurs
+ActiveHelp = Est-ce que ce formulaire est actif ?
+SelectedHelp = Si coché, ce formulaire devient le formulaire affiché par défaut à la création d'une réponse ( uniquement pour les app mobile).
+#
+AddQuestionnaireAction = Ajouter action
+QuestionnaireAction = Action
+QuestionnaireField = Champ de l'objet dolibarr
+ConfirmDeleteQuestionnaireAction = Êtes-vous sûr de vouloir supprimer cette action ?
+DeleteQuestionnaireAction = Supprimer
+ConfirmDeleteQuestionnaireActionLine = Êtes-vous sûr de vouloir supprimer ce champ ?
+DeleteQuestionnaireActionLine = Supprimer
+ConfirmActionQuestionnaire = Êtes-vous sûr de vouloir ajouter cette action ?
+ActionQuestionnaire = Ajouter
+QuestionnaireActionType = Type d'objets créés par l'action
+QuestionActionSociety = Société
+QuestionActionProject = Projet
+QuestionActionTaskTimeSpent = Temps consommé
+QuestionActionStockIncrement = Incrémentation de stock
+QuestionActionStockIncrementHelp = Ce type d'action nécessite à minima un mapping avec les champs dolibarr : datem,entrepôt,produit,valeur. Si vous utilisez un champ de type 'Produits multiples', un mapping Produit / champ produits multiples et suffisant. Dans le cas contraire, faites un mapping produit / champ produit et un valeur / champ quantité 
+QuestionnaireUseForFetch = Utiliser pour vérifier si l'objet existe déjà
+QuestionnaireUseForFetchHelp = Par exemple vérifier si le numéro siret d'une société exite déjà
+#
+MailToSendQuestionnaire = Questionnaire
+IsActive = Ce formulaire est actif
+NeedToBeConnected = Il faut être connecté pour remplir ce questionnaire
+YouNeedSetupReponseAddon = Vous devez configurer le module 'Réponse';
+QuestionnaireConfirmationEmailModel = Modèle d'email pour la confirmation utilisateur
+QuestionnaireNotificationEmailModel = Modèle d'email pour la notification de soumission
+QuestionnaireNotificationGroup = Groupe utilisateur pour la notification de soumission
+#
+Upgrade = Mise à jour
+QuestionnaireUpgrade = Création des tables
+QuestionnaireUpgradePage = Page de création des tables
+QuestionnaireUpgradePageDescLong = Cette page permet de créer les tables pour les questionnaires existants
+RecordsUpgraded = Questionnaire mis à jour : %d/%d
+UpgradedDone = Mise à jour terminée
+StartUpgrade = Démarrer la création
+#
+PublicURL = Lien formulaire
+#
+# Display
+QuestionnaireDisplay = Affichage
+Background = Couleur d'arrière plan
+ButtonBackground = Couleur d'arrière plan des boutons
+ButtonBackgroundHover = Couleur d'arrière plan des boutons au survol
+FooterDescription = Message du pied de page
+Customcss = Css personnalisé
+ColorAccent = Couleur de police accentuée
+ColorAccentHelp = S'applique sur les éléments de classe '.lead'
+ProgressBarDuration = Durée de la barre de progression
+ProgressBarDurationHelp = Exprimée en seconde
+#
+# Param Help
+QuestionnaireParamHelp = Voir l'aide détaillée des paramètres de ce champ
