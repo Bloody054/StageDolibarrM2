@@ -1,9 +1,0 @@
-[submodule "custom/questionnaire"]
-	path = custom/questionnaire
-	url = https://github.com/Properdol/questionnaire
-[submodule "custom/reponse"]
-	path = custom/reponse
-	url = https://github.com/Properdol/reponse
-[submodule "custom/veriflog"]
-	path = custom/veriflog
-	url = https://github.com/Properdol/veriflog
