@@ -556,9 +556,9 @@ if (count($pages) > 0) {
 
             $displayPreviousButton = $idx > 0;
 
-            $current = $codes[$idx];
+            $https://github.com/Properdol/connectcurrent = $codes[$idx];
             $line = $pages[$current];
-            $line->value = $values[$line->code] ?? null;
+            $line->value = $values[$line->code] ?? GETPOST($line->code, 'nohtml');
 
             if ($line->postfill) {
                 $line->value = $questionnaireform->getPostFillValue($line->postfill, $user, $values);

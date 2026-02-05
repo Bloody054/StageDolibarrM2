@@ -1,0 +1,77 @@
+# Copyright (C) 2017 Mikael Carlavan <contact@mika-carl.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleConnectName'
+ModuleConnectName = Connect
+# Module description 'ModuleConnectDesc'
+ModuleConnectDesc = Module permettant d'ajouter des fonctionnalités à l'api REST de Dolibarr
+
+#
+# Page d'administration
+#
+ConnectSetup = Configuration du module
+Settings = Réglages
+ConnectSetupPage = Page de réglage du module
+ConnectOptions = Options
+Description = Description
+Value = Valeur
+Action = Action
+DescCONNECT_AGENT_ID = Id de l'utilisateur par défaut (agent) l'application mobile
+DescCONNECT_API_VERSION = Version de l'API (à incrémenter pour forcer l'application mobile à mettre à jour ses données)
+DescCONNECT_USERS_GROUP_ID = Groupe utilisateur à utiliser pour les inscriptions via l'application mobile
+#
+# Page À propos
+#
+About = À propos
+ConnectAbout = À propos du module
+ConnectAboutPage = Page à propos du module
+ConnectAboutDescLong = Ce module a été développé par <a href="http://www.mikael-carlavan.fr">Mikael Carlavan</a> pour le <a href="http://www.cpie54.com">Centre Permanent d'Initiatives pour l'Environnement</a>.
+
+# ChangeLog
+ChangeLog = ChangeLog
+ChangeLogVersion = Version
+ChangeLogDate = Date
+ChangeLogUpdates = Modification apportées
+ConnectFirstVersion = Première version
+
+#
+ConnectEmailFieldIsMissing = L'adresse email est manquante.
+ConnectLoginFieldIsMissing = L'identifiant est manquant.
+ConnectPasswordFieldIsMissing = Le mot de passe est manquant.
+ConnectConfirmationCodeSent = Le code de confirmation a été envoyé.
+ConnectErrorWhileSensingConfirmationCode = Erreur lors de l'envoi du code de confirmation.
+ConnectErrorWhileGeneratingConfirmationCode = Erreur lors de la génération du code de confirmation.
+ConnectPasswordSent = Le mot de passe a été envoyé.
+ConnectConfirmationCodeDoesNotMatch = Le code de confirmation est erroné.
+ConnectUserNotFound = L'utilisateur n'a pas été trouvé.
+ConnectErrorWhileSendingNewPassword = Erreur lors de l'envoi de votre nouveau mot de passe.
+ConnectErrorWhileCreatingUser = Erreur lors de la création de votre compte.
+ConnectErrorWhileSavingFile = Erreur lors de l'enregistrement de votre fichier.
+ConnectErrorWhileCreatingUserDirectory = Erreur lors de la création de votre dossier utilisateur.
+ConnectAccessNotAllowed = Cette action ne vous est pas autorisée.
+ConnectEmailAddressAlreadyUsed = Cette adresse email est déjà utilisée.
+ConnectLoginAlreadyUsed = Cet identifiant est déjà utilisé.
+ConnectIncorrectEmailAddress = Cette adresse email est incorrecte. 
+ConnectSubjectRequestPassword = Réinitialisation du mot de passe
+ConnectSubjectResetPassword = Réinitialisation du mot de passe
+ConnectRequestPasswordReceived = Bonjour,<br /><br />Nous avons reçu une demande de changement de mot de passe pour votre compte, sur l'application signalement tique. 
+ConnectResetPassword = Votre mot de passe a été modifié.
+ConnectNewPassword = Votre nouveau mot de passe est le suivant <b>%s</b>.
+ConnectConfirmationCode = Merci de retourner dans l'application et de rentrer le code de confirmation suivant <b>%s</b>. Un nouveau mot de passe vous sera envoyé après cette confirmation.
+ConnectForgetIfNothing = Si vous n'avez pas fait de demande de mot de passe, vous pouvez ignorer ce message. Votre identifiant et votre mot de passe sont toujours sécurisés.<br />Bonne journée,<br /><br />L'équipe de Signalement Tique

@@ -1,0 +1,6 @@
+.bucket-card { border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1rem; margin-bottom: 1rem; background: white; box-shadow: 0 5px 15px rgba(0,0,0,0.05);} 
+.bucket-header { display:flex; justify-content: space-between; align-items: center; cursor: pointer; }
+.bucket-badge { display:inline-flex; align-items:center; font-size: 0.85rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 9999px; color: #fff; }
+.bucket-details { margin-top: 0.75rem; display:none; }
+.bucket-details.active { display:block; }
+.mass-actions { display:flex; align-items:center; gap:0.5rem; }
