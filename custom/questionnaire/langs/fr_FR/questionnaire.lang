@@ -185,6 +185,7 @@ SiretEstRGE = Est RGE ?
 SiretIdentifiantAssociation = Identifiant association
 SiretCodeSIREN= Numéro SIREN
 SiretLatLong= Lattitude Longitude
+TvaNumber = Numéro de TVA
 #
 OperatorLess = &lt;
 OperatorLessOrEqual = &le;

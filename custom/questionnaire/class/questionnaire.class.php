@@ -1825,6 +1825,7 @@ class Questionnaire extends CommonObject
                     'siret.code_postal' => $langs->trans('SiretCodePostal'),
                     'siret.libelle_commune' => $langs->trans('SiretLibelleCommune'),
                     'siret.code_ape' => $langs->trans('SiretCodeAPE'),
+                    'siret.tva_number' => $langs->trans('TvaNumber'),
                     'siret.code_siren' => $langs->trans('SiretCodeSIREN'),
                     'siret.dirigeant_nom' => $langs->trans('SiretDirigeantNom'),
                     'siret.dirigeant_prenom' => $langs->trans('SiretDirigeantPrenom'),

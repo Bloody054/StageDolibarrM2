@@ -1867,6 +1867,12 @@ class Reponse extends CommonObject
                         $result['est_rge'] = !empty($results['complements']['est_rge']) ? $results['complements']['est_rge'] : 0;
                         $result['identifiant_association'] = $results['complements']['identifiant_association'];
                         $result['latlong'] = $results['siege']['coordonnees'];
+
+						if($result['code_siren']) {
+							$cleTva = (12 + (3 * (intval($result['code_siren']) % 97))) % 97;
+
+							$result['tva_number'] = "FR" . strval($cleTva) . $result['code_siren'];
+						}
                     }
 
                     curl_close($ch);

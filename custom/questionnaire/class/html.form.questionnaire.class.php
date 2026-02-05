@@ -199,6 +199,9 @@ class QuestionnaireForm
                         case "latlong" :
                             $value = $values['siret.latlong'];
                         break;
+                        case "tva_number" :
+                            $value = $values['siret.tva_number'];
+                        break;
                     }
                 } else if ($obj == 'societe' || $obj == 'projet') {
                     $key = $obj.'.'.$attribute;
